@@ -1,0 +1,99 @@
+.Card-Main {
+  height: 504px;
+  width: 473px;
+}
+.Card-Left
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+/* Styles for extra-extra-large devices (larger desktops and monitors) */
+@media (min-width: 1400px) {
+  .Container {
+    padding: 120px;
+  }
+}
+
+/* Styles for extra-large devices (large desktops) */
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .Container {
+    padding: 120px;
+  }
+}
+/* Styles for large devices (desktops, laptops) */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .Container {
+    padding: 120px;
+  }
+}
+/* Styles for medium devices (tablets) */
+@media (min-width: 767px) and (max-width: 992px) {
+  .Container {
+    padding: 40px;
+  }
+  .Card
+  {
+      display: flex;
+      justify-content: center;
+  }
+  .Card-Main {
+    height: 372px;
+    width: 380px;
+    display: flex;
+  }
+  .Card-Left
+{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    align-items: center;
+}
+.Card-Input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Card_Btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+/* Styles for small devices (phones in landscape mode, tablets in portrait mode) */
+@media (max-width: 767px) {
+  .Container {
+    padding: 10px;
+  }
+  .Card
+{
+    display: flex;
+    justify-content: center;
+}
+  .Card-Main {
+    height: 372px;
+    width: 380px;
+  }
+  .Card-Left
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.Card-Input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Card_Btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}

@@ -1,0 +1,49 @@
+.Container {
+  padding: 120px;
+}
+.Card-Mian {
+    display: flex;
+    justify-content: space-between;
+}
+/* Styles for extra-extra-large devices (larger desktops and monitors) */
+@media (min-width: 1400px) {
+    .Header-Title {
+      font-size:5.4rem;
+    }
+    
+}
+
+/* Styles for extra-large devices (large desktops) */
+@media (min-width: 1200px) and (max-width:1400px) {
+  .Header-Title {
+    font-size: 3.7rem;
+  }
+}
+/* Styles for large devices (desktops, laptops) */
+@media (min-width: 992px) and (max-width:1200px) {
+    .Header-Title {
+        font-size: 3rem;
+      }
+}
+/* Styles for medium devices (tablets) */
+@media (min-width: 767px) and (max-width:992px)  {
+  .Container {
+    padding: 30px;
+  }
+  .Header-Title {
+      font-size: 3rem;
+    }
+}
+
+/* Styles for small devices (phones in landscape mode, tablets in portrait mode) */
+@media (max-width: 767px) {
+    .Container {
+        padding: 5px;
+    }
+    .Card-Mian {
+      justify-content: center;
+    }
+    .Header-Title {
+      font-size: 1.8rem;
+    }
+  }

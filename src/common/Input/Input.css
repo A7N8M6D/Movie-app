@@ -1,0 +1,9 @@
+@import "../../index.css";
+
+#inputPassword2::placeholder {
+  color: white;
+  font-size: var(--body-small-size);
+  line-height: var(--line-height-xxs);
+  letter-spacing: 0%;
+  font-weight: var(--font-semi);
+}
